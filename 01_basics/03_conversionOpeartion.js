@@ -36,6 +36,41 @@ let someNumber = 33;
 
 let stringNumber = String(someNumber);
 
-console.log(stringNumber);
+// console.log(stringNumber);
 
-console.log(typeof(stringNumber));
+// console.log(typeof(stringNumber));
+
+
+                               /*--------OPERATIONS-------*/
+
+
+let value = 4;
+let val = -value;
+
+// console.log(val);
+
+// console.log(2+2);
+// console.log(2-2);
+// console.log(2*4);
+// console.log(2**4);
+// console.log(2/2);
+// console.log(2%3);
+
+let str="Hello";
+let str2="Abhijay";
+
+// console.log(str +" "+ str2);
+
+// console.log("1" + 2);
+// console.log(1 + "2");
+// console.log("1" + 2 + 2);
+// console.log(1 + 2 + "2");
+
+// console.log(+true);
+
+let gameCounter = 100, game = 100;
+
+gameCounter++;
+
+game = ++game
+console.log(gameCounter + " " + game);
