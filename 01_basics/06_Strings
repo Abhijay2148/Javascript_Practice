@@ -1,0 +1,34 @@
+const name = "Abhijay";
+
+const last_name = "Chouhan";
+
+
+//old way
+// console.log("Hello"  +name + last_name);
+
+//new way
+
+console.log(`Hello ${name} ${last_name}  `)
+
+//another way to declare string
+
+const id = new String("I_Am_The_Best");
+
+console.log(id);
+
+console.log(id[0]);
+
+console.log(id.__proto__);
+
+console.log(id.length);
+
+console.log(id.toUpperCase());
+
+console.log(id.charAt(2));
+
+console.log(id.indexOf('h'));
+
+console.log(id.substring(0,7));
+
+console.log(id.slice(6,10));
+console.log(id.split('_'));

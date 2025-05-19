@@ -20,7 +20,7 @@
 
 
 const heros=["superman", "spiderman", "shaktiman"];
- console.log(heros);
+//  console.log(heros);
  
  let obj = {   //function without name
     name:'Abhijay',
@@ -28,10 +28,10 @@ const heros=["superman", "spiderman", "shaktiman"];
  }
 
 let func = function(){ //function with name
-    console.log("Hello Abhijay");
+    // console.log("Hello Abhijay");
 }
 
-console.log(typeof func);
+// console.log(typeof func);
 
 /*GOAL - Master Object and browser events to master javascript*/
 
@@ -46,3 +46,31 @@ console.log(typeof func);
  statically typed languages like TypeScript require you to 
  declare the type of a variable before using it, 
  and the compiler checks for type errors at compile time.  */
+
+
+ //------------+++++++++++++++++++++++++++++++++++++---------------------------------------
+
+//  Stack => Primitive Heap => Non-Primitive
+
+
+let myName="Abhijay";
+
+let anotherName = myName;
+
+anotherName="AbhijayChouhan";
+
+console.log(myName);
+
+console.log(anotherName);
+
+let user = {
+    email: "Abhijay23",
+    Id : "2103"
+}
+
+let userOne = user;
+
+userOne.email = "abhijay%8188";
+
+console.log(user.email);
+console.log(userOne.email);
