@@ -1,7 +1,7 @@
 #Projects related to DOM
 
 ##project link 
-[Click](https://stackblitz.com/edit/stackblitz-starters-8uvveqwx?description=HTML/CSS/JS%20Starter&file=1-colorchanger%2Fscript.js,1-colorchanger%2Findex.html,1-colorchanger%2Fstyle.css&terminalHeight=10&title=Static%20Starter)
+[Click](https://stackblitz.com/edit/stackblitz-starters-dj4cctvf?description=HTML/CSS/JS%20Starter&file=1-colorchanger%2Fscript.js,1-colorchanger%2Findex.html,1-colorchanger%2Fstyle.css&terminalHeight=10&title=Static%20Starter)
 
 #solution code
 
